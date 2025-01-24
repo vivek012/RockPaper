@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 class="text-center bg-black text-white p-4 font-bold text-3xl">Rock Paper Scissor</h1>
+
+        <div class="flex justify-center h-60 items-center">
+            <div id="rock" class=" select-none choice opacity-75 hover:opacity-100 h-40 w-40 outline rounded-full bg-blue-400 text-8xl flex justify-center m-5 items-center hover:scale-110 cursor-pointer">🪨</div>
+            <div id="paper" class=" select-none choice opacity-75 hover:opacity-100 h-40 w-40 outline rounded-full bg-blue-400 text-8xl flex justify-center m-5 items-center hover:scale-110 cursor-pointer">🤚</div>
+            <div id="scissor" class=" select-none choice opacity-75 hover:opacity-100 h-40 w-40 outline rounded-full bg-blue-400 text-8xl flex justify-center m-5 items-center hover:scale-110 cursor-pointer">✂️</div>
+        </div>
+        <div class="flex justify-center">
+            <div class="m-12">
+                <p id="user" class="text-5xl text-center">0</p>
+                <p class=" font-bold text-2xl">You</p>
+            </div >
+            <div class="m-12">
+                <p id="computer" class="text-5xl text-center">0</p>
+                <p class=" font-bold text-2xl">Computer</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <p id="mssg" class="mt-1 p-5 rounded-3xl text-center bg-black text-white text-2xl " >Play Your Move</p>
+        </div>
+    </main>
+    
+      <script src="script.js"></script>
+</body>
+</html>
